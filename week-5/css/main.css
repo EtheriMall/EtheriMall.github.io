@@ -1,5 +1,9 @@
 body {
-    color: red;
-    font-size: 30px;
+    color: navy;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: cornflowerblue;
+    font-size: 40px;
 }
