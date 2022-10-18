@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box; 
+}
+
+.box {
+    background-color: rgb(83, 74, 71);
+    width: 200px;
+    height: 200px;
+    colour: rgb(193, 166, 158);
+    /* box model properties */
+    padding: 10px;
+    border: 2px solid rgb(193, 166, 158);
+    /* overflow */
+    overflow: scroll;
+}
+
+.wrapper {
+    background-color: rgb(166, 71, 76);
+    width: 600px;
+    margin: 0 auto;
+}
