@@ -21,7 +21,7 @@ nav ul li{
     background-color: rgb(115, 93, 120);
     width: 200px;
     height: 200px;
-    colour: rgb(209, 179, 196);
+    color: rgb(209, 179, 196);
     /* box model properties */
     padding: 10px;
     border: 2px solid rgb(247, 209, 205);
