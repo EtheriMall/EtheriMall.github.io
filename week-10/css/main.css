@@ -1,0 +1,59 @@
+body{
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*****************
+Parent for flexbox
+******************/
+
+.container{
+    /*this is the property required to start using flexbox module in css*/
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 50px 0;
+    padding: 5px;
+    background-color: #4980d2;
+}
+
+/*******************
+Children for flexbox
+********************/
+
+.box{
+    padding: 2rem;
+    margin: 5px;
+    background-color: #cee3fe;
+    text-align: center;
+/* three properties control flex items to dynamically adjust to its container*/
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+/*
+.box:nth-child(2n){
+    padding-top: 5px;
+}*/
+
+/*shorthand for flex item sizing*/ 
+.three{
+    flex: 2 1 0;
+    order: -2;
+    
+}
+/*Items order with default 0*/
+.four{
+    flex: 4 1 0;
+    order: -1;
+}
+
+.one{
+    order: 1;
+    /*property that is used on individual flex items*/
+    align-self: center;
+}
+
+.two{
+    align-self: flex-end;
+}
